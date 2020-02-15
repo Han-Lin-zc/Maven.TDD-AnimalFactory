@@ -21,6 +21,9 @@ public abstract class Mammal implements Animal {
         this.id = id;
     }
 
+
+    public abstract String speak();
+
     public String getName() {
         return name;
     }
